@@ -1,14 +1,12 @@
-import {Container, Card, CardContent} from '@material-ui/core';
-import QrCodeReader from './components/QrCodeReader'
+import {Container,CardContent} from '@material-ui/core';
+import QrCodeReader from './components/QrCodeReader';
 
 function App() {  
   return (
     <Container>
-      <Card>
-        <CardContent>
-          <QrCodeReader/>
-        </CardContent>
-      </Card>
+      <CardContent>
+        <QrCodeReader/>
+      </CardContent>
     </Container>
   );
 }
